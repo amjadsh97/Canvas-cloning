@@ -31,12 +31,21 @@ body {
 }
 
 
-.leading {
+.search {
     border-left: 1px solid #e6e6e6;
     padding-bottom: 25px;
     padding-top: 25px;
     padding-left: 21px;
     padding-right: 21px;
+}
+
+.search > a {
+    display: inline-block;
+}
+
+.nav {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .nav-bar {
@@ -49,7 +58,7 @@ body {
 }
 
 .nav-bar__item:not(:last-child) {
-    margin-right: 92px;
+    margin-right: 70px;
 }
 
 .nav-bar__item:hover .nav-bar__item-link {
@@ -63,10 +72,11 @@ body {
     letter-spacing: 1.2px;
     font-weight: bold;
     font-size: 14px;
+    padding: 10px;
 }
 
 .wrapper {
-    max-width: 1550px;
+    max-width: 1250px;
     margin: 0 auto;
     height: 100%;
 }
